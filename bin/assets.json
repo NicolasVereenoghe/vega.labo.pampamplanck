@@ -1,0 +1,80 @@
+{
+	"assets": {
+		"map": "0",
+		"lock_instance": "1",
+		"vars": [
+			{
+				"id": "#NUM_PACK#",
+				"value": ""
+			},
+			{
+				"id": "#PACK_LVLS#",
+				"value": "1,4,7,10,13,16,19,22"
+			}
+		],
+		"groups": [
+			{
+				"id": "skinned",
+				"instance": "0",
+				"assets": [
+					{
+						"id": "bg_game#NUM_PACK#",
+						"file": { "name": "bg_game#NUM_PACK#.jpg"},
+						"add_groups": [ "pack#NUM_PACK#"]
+					}
+				]
+			},
+			{
+				"id": "characters",
+				"file": {
+					"name": "library.json",
+					"path": "assets/assetsCharacters/"
+				},
+				"instance": "0",
+				"assets": [
+					{
+						"id": "game_samsam",
+						"export": "game_samsam",
+						"render": { "name": "flump", "type": "mc"}
+					},
+					{
+						"id": "game_crap",
+						"export": "game_crap",
+						"render": { "name": "flump", "type": "mc"}
+					}
+				]
+			},
+			{
+				"id": "main",
+				"file": {
+					"name": "library.json",
+					"path": "assets/assetsMain/"
+				},
+				"instance": "0",
+				"assets": [
+					{
+						"id": "myHUD",
+						"export": "myHUD",
+						"render": { "name": "flump", "type": "mc"}
+					}
+				]
+			},
+			{
+				"id": "gameGame",
+				"file": {
+					"name": "library.json",
+					"path": "assets/assetsGame/"
+				},
+				"lock_instance": "1",
+				"instance": "0",
+				"assets": [
+					{
+						"id": "Tableau#PACK_LVLS#",
+						"export": "Tableau#PACK_LVLS#",
+						"render": { "name": "flump", "type": "mc"}
+					}
+				]
+			}
+		]
+	}
+}

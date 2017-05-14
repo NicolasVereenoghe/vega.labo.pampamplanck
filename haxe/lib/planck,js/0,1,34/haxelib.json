@@ -1,0 +1,21 @@
+{
+	"name": "planck.js",
+	"license": "MIT",
+	"classPath": "src",
+	"tags": [
+		"js",
+		"haxe",
+		"planck.js",
+		"box2d",
+		"extern",
+		"web"
+	],
+	"description": "Externs of planck.js v0.1.34 for Haxe",
+	"contributors": [
+		"NicolasVereenoghe"
+	],
+	"releasenote": "first release",
+	"version": "0.1.34",
+	"url": "",
+	"dependencies": {}
+}

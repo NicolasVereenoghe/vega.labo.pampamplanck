@@ -1,0 +1,24 @@
+{
+	"name": "pixijs",
+	"license": "MIT",
+	"classPath": "src",
+	"tags": [
+		"js",
+		"haxe",
+		"pixi",
+		"pixi.js",
+		"pixijs",
+		"extern",
+		"web"
+	],
+	"description": "Externs of pixi.js v4.x for Haxe - JavaScript 2D webGL renderer with canvas fallback.",
+	"contributors": [
+		"adireddy"
+	],
+	"releasenote": "updated to v4.5.1",
+	"version": "4.5.1",
+	"url": "https://github.com/pixijs/pixi-haxe",
+	"dependencies": {
+		"perf.js": ""
+	}
+}

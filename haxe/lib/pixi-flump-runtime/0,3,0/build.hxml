@@ -1,0 +1,10 @@
+
+-cp ./src
+-js bin/pixi-flump.js
+-main PixiFlumpMain
+-lib pixijs
+
+--macro include('pixi.flump')
+
+-D doc-gen
+-xml docs.xml
